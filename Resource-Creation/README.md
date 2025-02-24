@@ -37,7 +37,7 @@ ansible-vault create group_vars/all/pass.yml --vault-password-file vault.pass
 ## 🚀 Task 1: Creating EC2 Instances Using Ansible
 The `ec2_create.yaml` playbook provisions three EC2 instances:
 - **2 Ubuntu Instances**
-- **1 CentOS Instance**
+- **1 Amazon Linux Instance**
 
 Run the playbook using:
 ```bash
